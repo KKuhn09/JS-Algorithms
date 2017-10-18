@@ -1,1 +1,2 @@
-# JS-Algorithms
+# Javascript Algorithms
+-Randomize Array
