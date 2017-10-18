@@ -8,7 +8,10 @@ var remainder;
 //Creates our euclidsAlorithm function
 function euclidsAlgorithm(A, B){
 	//while the remainder of our two values is not 0
-	//value of B decreased by at least a factor of 1/2 for two trips through the loop (O(log B))
+	/*
+		The value of B decreases by at least a factor of 1/2 for every two trips through the loop
+		Runs in time at most O(log B)
+	*/
 	while(B != 0){
 		//if A is smaller then B, the values are swapped
 		remainder = A%B;
