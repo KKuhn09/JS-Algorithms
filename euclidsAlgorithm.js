@@ -30,6 +30,3 @@ function euclidsAlgorithm(A, B){
 euclidsAlgorithm(24, 60);
 euclidsAlgorithm(8, 50);
 euclidsAlgorithm(4851, 3003);
-
-console.log(Math.pow(7, 6));
-
