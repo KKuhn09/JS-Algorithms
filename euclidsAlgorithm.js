@@ -7,7 +7,6 @@
 var remainder;
 //Creates our euclidsAlorithm function
 function euclidsAlgorithm(A, B){
-	
 	/*
 		The value of B decreases by at least a factor of 1/2 for every two trips through the loop
 		Runs in time at most O(log B)
